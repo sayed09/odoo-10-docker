@@ -30,7 +30,7 @@ services:
     environment:
       - PGADMIN_DEFAULT_EMAIL= admin@pgadmin.com
       - PGADMIN_DEFAULT_PASSWORD= 123456
-    restart: unless-stopped
+    restart: always
 
 volumes:
   db:
