@@ -1,4 +1,4 @@
-# Setup Docker for Odoo 10 Community or Enterprise Version
+# Setup Docker for Odoo 10 Community or Enterprise Version with pgAdmin Access
 
 
 Install docker:
