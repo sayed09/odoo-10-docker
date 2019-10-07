@@ -1,4 +1,4 @@
-# Setup Docker for Odoo 10 with pgAdmin Access
+# Docker To Setup Odoo 10 With pgAdmin Access
 
 
 ### Install docker:
