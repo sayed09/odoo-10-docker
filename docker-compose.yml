@@ -28,7 +28,7 @@ services:
     ports:
       - "5555:80"
     environment:
-      - PGADMIN_DEFAULT_EMAIL= sayedbrur@gmail.com
+      - PGADMIN_DEFAULT_EMAIL= admin@pgadmin.com
       - PGADMIN_DEFAULT_PASSWORD= 123456
     restart: unless-stopped
 
