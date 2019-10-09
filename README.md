@@ -22,8 +22,8 @@ $ docker-compose up  -d
 
 Then locate `localhost:10000` to access Odoo 10.0.
 
-And locate `localhost:5555` to access pgAdmin using the following credentials.
+And locate `localhost:5050` to access pgAdmin using the following credentials.
 ```
-user: admin@pgadmin.com
-password: 123456
+user: admin@admin.com
+password: admin
 ```
