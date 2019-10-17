@@ -22,9 +22,9 @@ services:
     depends_on:
       - db
     ports:
-      - "10000:8069"
-    command: -- --dev=reload
-    command: odoo scaffold /mnt/extra-addons/odoo_debrand
+      - "10005:8069"
+    command: -- --dev=reload   
+    #command: odoo scaffold /mnt/extra-addons/odoo-debrand #to debug custom module
     volumes:
       - ./addons:/mnt/extra-addons
       - ./etc:/etc/odoo
