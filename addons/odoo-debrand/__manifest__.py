@@ -26,6 +26,7 @@
     'company': "Cybrosys Techno Solutions",
     'website': "https://cybrosys.com/",
     'category': 'Tools',
+    'sequence': 1,
     'depends': ['base', 'im_livechat', 'website'],
     'data': [
         'views/views.xml'],
@@ -34,5 +35,5 @@
     'images': ['static/description/banner.jpg'],
     'license': "LGPL-3",
     'installable': True,
-    'application': False
+    'application': True
 }
