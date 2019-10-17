@@ -22,8 +22,16 @@ $ docker-compose up  -d
 
 Then locate `localhost:10000` to access Odoo 10.0.
 
-And locate `localhost:5050` to access pgAdmin using the following credentials.
+<img width="300px" src="https://raw.githubusercontent.com/odoo-10-docker/static/odoo-apps.png" alt="Odoo is working.">
+
+Connect postgres now using pgAdmin using the following credentials.
 ```
-user: admin@admin.com
-password: admin
+name: admin@admin.com
+host: localhost (if not matched, find hostname)
+port: 5050
+username: odoo
+password: odoo
 ```
+
+<img width="300px" src="https://raw.githubusercontent.com/odoo-10-docker/static/odoo-apps.png" alt="Odoo is working.">
+
